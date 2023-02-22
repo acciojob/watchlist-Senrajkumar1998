@@ -4,6 +4,10 @@ public class Director {
     private String name;//director name
     private int numberOfMovie; //no. of movie directed oby directed
     private double imdbRating; // director rating
+    public Director() {
+
+    }
+
 
     public Director(String name, int numberOfMovie, double imdbRating) {
         this.name = name;

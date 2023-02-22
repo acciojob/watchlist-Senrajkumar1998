@@ -4,6 +4,9 @@ public class Movie {
     private String name; // name of movie
     private double imdbRating; //Rating of movie
     private String duration; // time period of movie
+    public Movie(){
+
+    }
 
     public Movie(String name, double imdbRating, String duration) {
         this.name = name;
